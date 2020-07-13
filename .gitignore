@@ -1,3 +1,6 @@
 **/node_modules
-**/Storage/*
+Storage/*
 **/.idea
+dist/*
+
+!dist/.gitkeep
