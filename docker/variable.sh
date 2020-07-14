@@ -1,0 +1,11 @@
+CURRENT_PATH="$(pwd)"
+GIT_REPO_LINK="https://github.com/saurabh-mishrr/htmltopdf.git"
+DOMAIN="api.cactuspdfgen.com"
+NETWORK_NAME="docbridge" 
+NETWORK_SUBNET="192.168.31.0/26"
+NODE_IP="192.168.31.21"
+NODE_PORT="5001:5001"
+NODE_DOCKERFILE=${CURRENT_PATH}/setup/node/Dockerfile
+NODE_CONTAINER_NAME=${DOMAIN}
+SERVICES_LIST=(node)
+PROJECT_DIR=$CURRENT_PATH/../
