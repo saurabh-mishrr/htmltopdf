@@ -1,6 +1,5 @@
 setup_node() {
     build_node_command='build 
-        --no-cache
         -t '${NODE_CONTAINER_NAME}'
         -f '${NODE_DOCKERFILE}' '${PROJECT_DIR}''
     
