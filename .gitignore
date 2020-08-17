@@ -2,5 +2,5 @@
 Storage/*
 !Storage/.gitkeep
 **/.idea
-dist/*
-!dist/.gitkeep
+dest/*
+!dest/.gitkeep
